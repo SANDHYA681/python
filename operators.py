@@ -26,9 +26,22 @@ num2 = 15
 
 
 #3 logical operators and, or, not
+#and operator
 #print(num1>=num2 and num2<=num1)
 #print(num1<=num2 and num2>=num1)
 
+#or Operator
 #print(num1>=num2 or num2<=num1)
 #print(num1<=num2 or num2<=num1)
-print (not num1>num2)
+#print (not num1>num2)
+
+#assignment operator =, +=, -=, %=, /=, **=
+
+num1 = num1+1
+print(num1)
+
+num1 += 1
+print(num1)
+
+num1 **= 2
+print(num1)
