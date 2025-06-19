@@ -5,8 +5,20 @@ from abc import ABC, abstractmethod
 class Wallets(ABC):
     
  @abstractmethod
- def pay():
+ def pay(self):
         print("Test")
         pass
+    
+ class Paypal(Wallets):
+    def pay(self):
+        print("Paypal payment")
+        
+    def displayInfo():
+         Wallets.pay()
+         
+    
+    obj = Paypal
+    obj.displayInfo()
+        
     
  
