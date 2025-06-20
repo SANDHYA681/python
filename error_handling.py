@@ -14,3 +14,10 @@ try:
     
 except ZeroDivisionError as e:
     print("Error: Division by zero is not allowed") #print the error message
+    
+try:
+    num = int(input("Enter a number: "))
+    print(num)
+    
+except (ValueError, TypeError) as e:
+    print("e") #print the error message
