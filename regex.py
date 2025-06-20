@@ -21,7 +21,7 @@ pattern = r'[a-z]'
 string = input("Enter string:")
 
 if re.match(pattern, string):
-    print("Pattern found in the string")
+    print("Pattern matched")
 else:
     print("Pattern not found in the string")
 
