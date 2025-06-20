@@ -3,18 +3,27 @@
 import re
 
 
-#Pattern for regex
-pattern = "test"
-string = "test string"
+# #Pattern for regex
+# pattern = "test"
+# string = "test string"
 
-# matching the pattern in the string
+# # matching the pattern in the string
+# if re.match(pattern, string):
+#     print("Pattern found in the string")
+    
+    
+#     #search
+# if re.search(pattern, string):
+#     print("Pattern found in the string")
+
+
+pattern = r'[a-z]'
+string = input("Enter string:")
+
 if re.match(pattern, string):
     print("Pattern found in the string")
-    
-    
-    #search
-if re.search(pattern, string):
-    print("Pattern found in the string")
+else:
+    print("Pattern not found in the string")
 
 # # pattern for regex
 # pattern = r'[a-z]'
