@@ -24,6 +24,9 @@ if re.match(pattern, string):
     print("Pattern matched")
 else:
     print("Pattern not found in the string")
+    
+    
+pattern = r'[A-Za-z]+/+@=+[A-Za-z].com'
 
 # # pattern for regex
 # pattern = r'[a-z]'
