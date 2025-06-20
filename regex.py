@@ -11,3 +11,16 @@ string = "Test"
 match = re.search(pattern, string)
 # print the match
 print(match)
+
+
+
+
+#matching the pattern in string
+searching_string = re.search(pattern, string)
+# print the match
+print(searching_string)
+
+
+match_string = re.match(pattern, string)
+# print the match
+print(match_string)
