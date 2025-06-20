@@ -22,7 +22,9 @@ try:
 except (ValueError, TypeError) as e:
     print("e") #print the error message
     
-    
+    class EvenNumberError(Exception):
+        pass
+        
 try:
     num1 = int(input("Enter an odd number: "))
     if num1%2 == 0:
