@@ -34,6 +34,10 @@ try:
 except ValueError as e:
     print(e) #print the error message
     
+else:
+    print("Some other error occured")
+    
+    
 finally:
     print("This will always run") #this will run regardless of whether an error occurred or not
     
