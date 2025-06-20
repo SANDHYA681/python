@@ -17,17 +17,22 @@ import re
 #     print("Pattern found in the string")
 
 
-pattern = r'[a-z]'
-string = input("Enter string:")
+# pattern = r'[a-z]'
+# string = input("Enter string:")
 
+# if re.match(pattern, string):
+#     print("Pattern matched")
+# else:
+#     print("Pattern not found in the string")
+    
+    
+pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
+string = input("Enter your email: ")
 if re.match(pattern, string):
-    print("Pattern matched")
+    print("Valid email")
+    print("Signed")
 else:
-    print("Pattern not found in the string")
-    
-    
-pattern = r'[A-Za-z]+/+@=+[A-Za-z].com'
-
+    print("Invalid email")
 # # pattern for regex
 # pattern = r'[a-z]'
 # # string to search
